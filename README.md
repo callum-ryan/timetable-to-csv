@@ -1,4 +1,5 @@
 # timetable-to-csv
+## About
 A web scraping application for students at the University of Essex which stores timetable information in a CSV file for use in Microsoft Excel, Google Calendar etc.
 
 ## Preparation
