@@ -14,7 +14,7 @@ Install Python3.
 
 Install dependencies using pip.
 
-    sudo pip install bs4 datetime tabulate
+    sudo pip install bs4 datetime tabulate requests robobrowser requests_ntlm
 
 Ensure the program has execution permissions.
 
