@@ -35,7 +35,7 @@ def scrape_calendar(u,p,q):
 	password = p
 	s = requests.Session()
 	s.auth = HttpNtlmAuth(u, p, s)
-	browser = RoboBrowser(session=s)
+	browser = RoboBrowser(session=s,parser = 'html.parser')
 	#push through the auth, redirs to a timeout page otherwise
 	s.get('https://www.essex.ac.uk/timetables/default.aspx')
 	x = browser.open('https://www.essex.ac.uk/timetables/nojstimetable.aspx?nojs=1')
