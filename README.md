@@ -18,8 +18,8 @@ Install dependencies using pip.
 
 Ensure the program has execution permissions.
 
-    chmod +x timetable_fix.py
+    chmod +x timetable.py
 
 ## Run
 
-    ./timetable_fix.py
+    ./timetable.py
